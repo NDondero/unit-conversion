@@ -35,14 +35,14 @@
                         <legend>Temperature</legend>
                         <!-- Label for Temperature input -->
                         <label for="Temperature">Celsius</label> <br />
-
-                        <input type="number" id="c"> <br />
+                        
+                        <input type="number" id="c" onchange="celciusToFarenheit()"> <br />
 
                         <!-- The conversion button -->
-                        <button onclick="convertTemperature()"> Convert </button> <br />
+                        <button> Convert </button> <br />
 
                         <!-- Label for Temperature output -->
-                        <input type="number" id="f"> <br />
+                        <input type="number" id="f" onchange="farenheitToCelcius()"> <br />
 
                         <label for="Temperature">Fahrenheit</label>
                     </fieldset>
@@ -69,13 +69,13 @@
                         <!-- Label for Weight input -->
                         <label for="Weight">Kilograms</label> <br />
 
-                        <input type="number" id="kg"> <br />
+                        <input type="number" id="kg" onchange="kilogramsToPounds()"> <br />
 
                         <!-- The conversion button -->
-                        <button onclick="convertWeight()"> Convert </button> <br />
+                        <button> Convert </button> <br />
 
                         <!-- Label for Weight output -->
-                        <input type="number" id="lbs"> <br />
+                        <input type="number" id="lbs" onchange="poundsToKilograms()"> <br />
 
                         <label for="Weight">Pounds</label>
                     </fieldset>
@@ -103,13 +103,13 @@
                         <!-- Label for Distance input -->
                         <label for="Distance">Kilometers</label> <br />
 
-                        <input type="number" id="km"> <br />
+                        <input type="number" id="km" onchange="kilometersToMiles()"> <br />
 
                         <!-- The conversion button -->
-                        <button onclick="convertDistance()"> Convert </button> <br />
+                        <button> Convert </button> <br />
 
                         <!-- Label for Distance output -->
-                        <input type="number" id="m"> <br />
+                        <input type="number" id="m" onchange="milesToKilometers()"> <br />
 
                         <label for="Distance">Miles</label>
                     </fieldset>
